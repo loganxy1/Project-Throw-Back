@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+#apps {
+    background-color: lime;
+    height: 800px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Syne Mono;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    transition: transform .2s;
+}
+
+.line {
+    height: 6px;
+    width: 80px;
+    margin: 8px auto;
+    background-color: black;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#chatty {
+    background-color: cyan;
+    height: 800px;
+}
